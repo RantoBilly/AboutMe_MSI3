@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+    
+}
+
+#at{
+    text-decoration: underline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(148, 5, 5);
+}
+
+h2{
+    color:rgb(30, 190, 38);
+}
+
+.if{
+     display: flex;
+     flex-flow: row wrap;
+     align-items: center;
+}
+
+.if p:first-child{
+    flex:0 0 40%;
+}
+.if p:last-child{
+    flex:0 0 60%;
+}
+
+#ip{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color:ivory;
+}
